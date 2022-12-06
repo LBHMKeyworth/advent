@@ -15,7 +15,7 @@ for snack in all_elves:
         calories = 0
 
 
-#pprint.pprint(sorted(elf_totals))
+pprint.pprint(sorted(elf_totals, reverse=True)[:1])
 #get top 3 elves
 pprint.pprint(sorted(elf_totals, reverse=True)[:3])
 pprint.pprint(sum(sorted(elf_totals, reverse=True)[:3]))
